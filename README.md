@@ -31,12 +31,14 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Coloquei *configure model* saída temporal baseada em 7 dias.
 -   Iniciei o treinamento do modelo no modo *preview* para ver as métricas antecipadamente, e, para poder melhorá-las, perguntei a IA. As opções foram bem técnicas, então optei por um treinamento *standard* que aumentaria a acurância do modelo e tornaria as métricas menores segundo aprendi nas aulas. E foi o que ocorreu! 🙌
 - **Métricas do preview mode:**
-  ![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-02%20235533.png)
-  ![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-02%20235600.png)
-  ![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-02%20235623.png)
+
+![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-02%20235533.png)
+![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-02%20235600.png)
+![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-02%20235623.png)
 
 - **Métricas no modo stardard:**
-  ![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-03%20013302.png)
+
+![image](https://github.com/dev1mycry/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/Captura%20de%20tela%202025-12-03%20013302.png)
 
 ### 3. Analisar
 
