@@ -16,29 +16,30 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 - Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
 
 
-## 🚀 Passo a Passo
+## 🚀 Passo a Passo da Resolução 
 
 ### 1. Selecionar Dataset
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+-   Naveguei até a pasta `datasets` deste repositório e com ajudar de uma IA o enriqueci com novas colunas e dados.
+-   Usei como premissa de prompt o uso real dos dados para a IA me oferecer tanto a ideia de enriquecimento como dados técnicos que poderia ser usados no SageMaker Canvas.
+-   A IA me orientou a usar o Python para preencher as colunas faltantes; também, o Google Colab, como plataforma de código. Depois de acrescentar colunas e ajustar o dataset fiz o upload no SageMaker Canvas.
+-   imagem
 
 ### 2. Construir/Treinar
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+-   No SageMaker Canvas importei o dataset, configurando como *target* a coluna QUANTIDADE_ESTOQUE.
+-   Coloquei *confire model* saída temporal baseada em 7 dias.
+-   Iniciei o treinamento do modelo no modo preview para ver as métricas antecipadamente e como poderia melhorá-las perguntei a IA. As opções foram bem técnicas, então optei por um treinamento *standard* que aumentaria a acurancia do modelo e tornaria as métricas menores segundo aprendi nas aulas. E foi o que ocorreu! 🙌
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
+-   Após o treinamento, as métricas foram bem baixas, sendo satisfatórias para o que foi proposto na configuração do modelo.
 -   Verifique as principais características que influenciam as previsões.
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
+-   As previsões de estoque veio em linha no que foi pedido, que era uma amostra em 7 dias.
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
